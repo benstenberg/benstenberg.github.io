@@ -1,0 +1,23 @@
+/* body {
+    background-image: linear-gradient(to bottom right, #5a0382, #ae9ae0);
+    background-attachment: fixed;
+    
+} */
+body {
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url('../Images/pexels-felix-mittermeier-956981.jpg');
+    background-size: cover;    
+  }
+
+#portrait {
+    width:80%; 
+    margin-left: 20%;
+}
+
+ .text {
+    color:white;
+ }
+
+
+.full-row {
+    height: 100vh;
+}
