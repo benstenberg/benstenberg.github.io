@@ -16,7 +16,26 @@ body {
     color:white;
  }
 
+ .row-section{
+     margin-bottom: 10px;
+ }
 
+ #about .col {
+    background-color: rgba(80, 5, 74, 0.5);
+    color: white;
+    font-size:large;
+    border-radius:5px;
+ }
+ #work .col {
+    background-color: rgba(80, 5, 74, 0.5);
+    color: white;
+    font-size:large;
+ }
+ #contact .col {
+    background-color: rgba(80, 5, 74, 0.5);
+    color: white;
+    font-size:large;
+ }
 
 .row {
     height:100%;
