@@ -37,12 +37,18 @@ body {
     font-size:large;
  }
 
-.row {
-    height:100%;
-}
-
-
 .icon {
     width: 30px;
     height: auto;
+}
+
+.card-text {
+    color: gray;
+}
+.card-title {
+    color:black;
+}
+
+.card-col {
+    margin-bottom: 10px;
 }
