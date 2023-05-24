@@ -1,15 +1,22 @@
-
-body {
+* {
+    margin:0;
+}
+.home {
     background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url('../Images/pexels-felix-mittermeier-956981.jpg');
     background-size: cover;    
-    background-attachment: fixed;
     height:100vh;
   }
 
+body {
+    background-color: #121212;
+}
+
 
 #portrait {
-    width:100%; 
-    margin:0;
+/*     height:100vh;
+ */    max-height:100vh;
+    width:auto;
+    /* margin-top:15px; */
 }
 
  .text {
@@ -17,28 +24,48 @@ body {
  }
 
  .row-section{
-     margin-bottom: 10px;
+     /* margin-bottom: 10px; */
+     background-color: #121212;
+
+ }
+ .row-section h1 {
+     color: #3e50b4;
+ }
+ .row-section h2 {
+    color: #cea5fb;
+}
+ .row-section :not(h1,img,div) {
+     opacity: 80%;
  }
 
  #about .col {
-    background-color: rgba(80, 5, 74, 0.5);
-    color: white;
+/*     background-color: rgba(80, 5, 74, 0.5);
+ */    color: #ffffff;
     font-size:large;
     border-radius:5px;
  }
+#about {
+    background-color: #121212;
+}
+
  #work .col {
-    background-color: rgba(80, 5, 74, 0.5);
+    /* background-color: rgba(80, 5, 74, 0.5); */
     color: white;
     font-size:large;
  }
  #contact .col {
-    background-color: rgba(80, 5, 74, 0.5);
+   /*  background-color: rgba(80, 5, 74, 0.5); */
     color: white;
     font-size:large;
  }
 
 .icon {
     width: 30px;
+    height: auto;
+}
+
+.logo {
+    width: 90px;
     height: auto;
 }
 
@@ -51,4 +78,14 @@ body {
 
 .card-col {
     margin-bottom: 10px;
+}
+
+hr {
+    height:7px;
+    background: linear-gradient(to right, purple, blue);
+    width:75%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
